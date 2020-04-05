@@ -1,0 +1,80 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header {
+    margin: auto;
+}
+
+.logo {
+    width: 36px;
+    float: left;
+    padding-left: 10px;
+}
+
+.logo-title h3 {
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+.card-picture {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-thumbnail {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-flow: row nowrap;
+}
+
+.big-image {
+    width: 100%;
+}
+
+.small-image {
+    width: 25%;
+}
+
+.front,
+.back {
+    margin: auto;
+    display: block;
+}
+
+.back {
+    padding-right: 50%;
+}
+
+.front {
+    padding-left: 50%;
+}
+
+/* Card Info Section */
+.card-info {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.info-item {
+    width: 30%;
+    text-align: center;
+}
+
+.info-item h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
