@@ -35,6 +35,7 @@ header {
     width: 100%;
     margin: auto;
     flex-flow: row nowrap;
+    padding-top: 5px;
 }
 
 .big-image {

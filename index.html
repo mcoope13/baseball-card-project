@@ -7,6 +7,7 @@
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <link rel="stylesheet" href="style.css" type="text/css">
+      <script src="cardswitch.js" type="application/javascript"></script>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -21,11 +22,11 @@
     <main>
         <section class="card-picture">
             <div class="card-image">
-                <img class="big-image" src="/img/Groshans_Front.jpg">
+                <img class="big-image" id="big-image" src="/img/Groshans_Front.jpg">
             </div>
             <div class="card-thumbnail">
-                <a href=""><img class="small-image front" src="/img/Groshans_Front.jpg"></a>
-                <a href=""><img class="small-image back" src="/img/Groshans_Back.jpg"></a>
+                <a href=""><img class="small-image front" id="front" src="/img/Groshans_Front.jpg"></a>
+                <a href=""><img class="small-image back" id="back" src="/img/Groshans_Back.jpg"></a>
             </div>
         </section>
         <section class="card-info">
@@ -35,11 +36,11 @@
             </div>
             <div class="info-item">
                 <h3>Year</h3>
-                <p class="card-year"></p>
+                <p class="card-year">2018</p>
             </div>
             <div class="info-item">
                 <h3>Set</h3>
-                <p class="card-set"></p>
+                <p class="card-set">Bowman Draft</p>
             </div>
             <div class="info-item">
                 <h3>Insert Type</h3>
@@ -51,37 +52,46 @@
             </div>
             <div class="info-item">
                 <h3>Team Name</h3>
-                <p class="team-name"></p>
+                <p class="team-name">Toronto Blue Jays</p>
             </div>
             <div class="info-item">
                 <h3>Player Name</h3>
-                <p class="player-name"></p>
+                <p class="player-name">Jordan Groshans</p>
             </div>
             <div class="info-item">
                 <h3>Set Number</h3>
-                <p class="set-number"></p>
+                <p class="set-number">CDAJG</p>
             </div>
             <div class="info-item">
                 <h3>Grade Status</h3>
-                <p class="grade-status"></p>
+                <p class="grade-status">Graded</p>
             </div>
             <div class="info-item">
                 <h3>Grader</h3>
-                <p class="grader"></p>
+                <p class="grader">PSA</p>
             </div>
             <div class="info-item">
                 <h3>Grade</h3>
-                <p class="grade-number"></p>
+                <p class="grade-number">10</p>
             </div>
             <div class="info-item">
                 <h3>Autograph Status</h3>
-                <p class="autograph"></p>
+                <p class="autograph">Autograph</p>
             </div>
             <div class="info-item">
                 <h3>Autograph Type</h3>
-                <p class="autograph-type"></p>
+                <p class="autograph-type">On Card</p>
+            </div>
+            <div class="info-item">
+                <h3>Number</h3>
+                <p class="number">31/75</p>
+            </div>
+            <div class="info-item">
+                <h3>Color</h3>
+                <p class="color">Black</p>
             </div>
         </section>
     </main>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </body>
 </html>
